@@ -12,8 +12,6 @@
 > tyarn install
 #### 启动
 > tyarn start
-#### 启动截图
-![image](https://user-images.githubusercontent.com/37791775/116211608-93a55e80-a776-11eb-88ef-964a9ee63b5b.png)
 #### 安装antdpro
 > tyarn add @ant-design/pro-layout
 #### 更新配置文件（测试是否成功） 文件名：.umirc.ts
