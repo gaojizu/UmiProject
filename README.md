@@ -15,9 +15,25 @@
 - ![image](https://user-images.githubusercontent.com/37791775/116211190-2691c900-a776-11eb-9f46-009a0a474633.png)
 #### 启动
 > tyarn start
+#### 启动截图
 ![image](https://user-images.githubusercontent.com/37791775/116211608-93a55e80-a776-11eb-88ef-964a9ee63b5b.png)
 #### 安装antdpro
 > tyarn add @ant-design/pro-layout
+#### 更新配置文件（测试是否成功） 文件名：.umirc.ts
+  ```js
+  import { defineConfig } from 'umi';
+
+export default defineConfig({
+  nodeModulesTransform: {
+    type: 'none',
+  },
+  layout: {},
+  routes: [
+    { path: '/', component: '@/pages/index' },
+  ],
+  fastRefresh: {},
+});
+  ```
 ![image](https://user-images.githubusercontent.com/37791775/116212227-3362ec80-a777-11eb-8343-70fb2c153e36.png)
 
 
