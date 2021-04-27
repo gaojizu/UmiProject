@@ -14,6 +14,8 @@
 > tyarn start
 #### 安装antdpro
 > tyarn add @ant-design/pro-layout
+#### 安装成功截图
+![image](https://user-images.githubusercontent.com/37791775/116212227-3362ec80-a777-11eb-8343-70fb2c153e36.png)
 #### 更新配置文件（测试是否成功） 文件名：.umirc.ts
   ```js
   import { defineConfig } from 'umi';
@@ -29,6 +31,6 @@ export default defineConfig({
   fastRefresh: {},
 });
   ```
-![image](https://user-images.githubusercontent.com/37791775/116212227-3362ec80-a777-11eb-8343-70fb2c153e36.png)
+
 
 
