@@ -31,6 +31,14 @@ export default defineConfig({
   fastRefresh: {},
 });
   ```
+  #### 部署
+  > tyarn build
+  #### 测试，安装serve
+  > tyarn global add serve
+  #### 运行测试
+  > serve ./dist
+  #### 运行效果
+  ![image](https://user-images.githubusercontent.com/37791775/116213855-b6d10d80-a778-11eb-8f71-8dba01031b99.png)
 
 
 
